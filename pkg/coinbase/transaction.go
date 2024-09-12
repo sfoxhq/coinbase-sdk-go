@@ -106,6 +106,18 @@ func (t *Transaction) Sign(k *ecdsa.PrivateKey) error {
 	return nil
 }
 
+func (t *Transaction) SetSigned(signedTx *types.Transaction) error {
+	bytes, err := signedTx.MarshalBinary()
+	if err != nil {
+		return err
+	}
+
+	signedPayload := hex.EncodeToString(bytes)
+	t.model.SignedPayload = &signedPayload
+	t.raw = signedTx
+	return nil
+}
+
 func newTransactionFromModel(m *client.Transaction) (*Transaction, error) {
 	if m == nil {
 		return nil, fmt.Errorf("transaction model cannot be nil")
