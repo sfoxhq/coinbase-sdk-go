@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/coinbase/coinbase-sdk-go/gen/client"
+	"github.com/sfoxhq/coinbase-sdk-go/gen/client"
 	"github.com/ethereum/go-ethereum/core/types"
 )
 

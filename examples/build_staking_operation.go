@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	api "github.com/coinbase/coinbase-sdk-go/gen/client"
-	"github.com/coinbase/coinbase-sdk-go/pkg/coinbase"
+	api "github.com/sfoxhq/coinbase-sdk-go/gen/client"
+	"github.com/sfoxhq/coinbase-sdk-go/pkg/coinbase"
 )
 
 func main() {

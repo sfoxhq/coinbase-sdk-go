@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/coinbase/coinbase-sdk-go/gen/client"
-	"github.com/coinbase/coinbase-sdk-go/pkg/errors"
+	"github.com/sfoxhq/coinbase-sdk-go/gen/client"
+	"github.com/sfoxhq/coinbase-sdk-go/pkg/errors"
 )
 
 // StakingReward represents a struct that holds a staking reward data.

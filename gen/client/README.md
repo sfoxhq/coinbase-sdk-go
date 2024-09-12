@@ -22,7 +22,7 @@ go get golang.org/x/net/context
 Put the package under your project folder and add the following in import:
 
 ```go
-import client "github.com/coinbase/coinbase-sdk-go/client"
+import client "github.com/sfoxhq/coinbase-sdk-go/client"
 ```
 
 To use a proxy, set the environment variable `HTTP_PROXY`:

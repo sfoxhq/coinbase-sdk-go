@@ -7,7 +7,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/coinbase/coinbase-sdk-go/gen/client"
+	"github.com/sfoxhq/coinbase-sdk-go/gen/client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

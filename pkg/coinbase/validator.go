@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/coinbase/coinbase-sdk-go/gen/client"
-	"github.com/coinbase/coinbase-sdk-go/pkg/errors"
+	"github.com/sfoxhq/coinbase-sdk-go/gen/client"
+	"github.com/sfoxhq/coinbase-sdk-go/pkg/errors"
 )
 
 type ValidatorStatus string

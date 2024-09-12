@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/coinbase/coinbase-sdk-go/gen/client"
+	"github.com/sfoxhq/coinbase-sdk-go/gen/client"
 )
 
 // Balance represents a struct that holds a balance data.

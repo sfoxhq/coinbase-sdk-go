@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	client "github.com/coinbase/coinbase-sdk-go/gen/client"
+	client "github.com/sfoxhq/coinbase-sdk-go/gen/client"
 
 	http "net/http"
 

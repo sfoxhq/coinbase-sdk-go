@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"testing"
 
-	api "github.com/coinbase/coinbase-sdk-go/gen/client"
-	"github.com/coinbase/coinbase-sdk-go/pkg/mocks"
+	api "github.com/sfoxhq/coinbase-sdk-go/gen/client"
+	"github.com/sfoxhq/coinbase-sdk-go/pkg/mocks"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

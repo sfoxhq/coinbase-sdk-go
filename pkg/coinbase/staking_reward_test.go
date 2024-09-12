@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	api "github.com/coinbase/coinbase-sdk-go/gen/client"
-	"github.com/coinbase/coinbase-sdk-go/pkg/mocks"
+	api "github.com/sfoxhq/coinbase-sdk-go/gen/client"
+	"github.com/sfoxhq/coinbase-sdk-go/pkg/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

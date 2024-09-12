@@ -3,8 +3,8 @@ package coinbase
 import (
 	"context"
 
-	"github.com/coinbase/coinbase-sdk-go/gen/client"
-	"github.com/coinbase/coinbase-sdk-go/pkg/errors"
+	"github.com/sfoxhq/coinbase-sdk-go/gen/client"
+	"github.com/sfoxhq/coinbase-sdk-go/pkg/errors"
 )
 
 // StakingContextBalance represents the active stakeable balances for a given address and asset.

@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/coinbase/coinbase-sdk-go/gen/client"
-	api "github.com/coinbase/coinbase-sdk-go/gen/client"
-	"github.com/coinbase/coinbase-sdk-go/pkg/mocks"
+	"github.com/sfoxhq/coinbase-sdk-go/gen/client"
+	api "github.com/sfoxhq/coinbase-sdk-go/gen/client"
+	"github.com/sfoxhq/coinbase-sdk-go/pkg/mocks"
 )
 
 func TestListHistoricalStakingBalances(t *testing.T) {

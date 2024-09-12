@@ -27,6 +27,6 @@ Install the latest version:
 
 #### You can install the SDK as follows
 ```bash
-go install github.com/coinbase/coinbase-sdk-go
+go install github.com/sfoxhq/coinbase-sdk-go
 ```
 

@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/coinbase/coinbase-sdk-go/gen/client"
+	"github.com/sfoxhq/coinbase-sdk-go/gen/client"
 	"github.com/stretchr/testify/assert"
 )
 

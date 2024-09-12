@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/coinbase/coinbase-sdk-go/gen/client"
-	"github.com/coinbase/coinbase-sdk-go/pkg/auth"
+	"github.com/sfoxhq/coinbase-sdk-go/gen/client"
+	"github.com/sfoxhq/coinbase-sdk-go/pkg/auth"
 )
 
 // Client is a coinbase client
